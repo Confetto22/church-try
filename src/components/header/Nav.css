@@ -1,0 +1,54 @@
+header{
+    /* background-color: rgba(0, 0, 0, 0.541); */
+    color: #fff;
+    /* padding: .6rem 2rem;
+    padding-top: 0; */
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+.navtop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem ;
+    background-color: rgba(0, 0, 0, 0.541);
+    
+}
+.contactBt{
+    background-color: #df2601;
+    border: none;
+    padding: .6rem 1rem;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    transition:.3s cubic-bezier(0.65, 0.05, 0.36, 1);;
+}
+.contactBt i{
+    font-size: 1.2rem;
+}
+.contactBt:hover{
+    background-color: #013a28;
+    color: gold;
+}
+.headerDivide{
+    background-color: gold;
+    border: none;
+    height: 2px;
+}
+.navbar{
+    padding: 1rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+.churchLogo{
+    width: 120px;
+}
+.menuBt{
+    font-size: 2.4rem;
+    color: black;
+}
